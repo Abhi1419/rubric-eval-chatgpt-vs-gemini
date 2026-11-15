@@ -80,7 +80,3 @@ The Factual and Reasoning rows rest on only 4 and 5 items, so they show where to
 - The most common first-draft failure was **objectivity** (14 items), then **atomicity** (3) and **self-containment** (2). Typical objectivity failures were vague phrases such as "close equivalent", "a sea-related noun" and "only one analogy". These were replaced with closed lists or counts.
 - Some items were also **over-specific**: they would have marked a correct answer wrong, for example by requiring a particular method for a maths answer. These were rewritten to check the result.
 - One item (P07-I4) was changed **after** grading. It required "3 pm" in every version, including the casual one, and ChatGPT's casual version said "at 3". I judged this over-strict for a casual message and loosened it, so ChatGPT's grade on that item changed from N to Y. Because it was changed after seeing the answer, it is marked in `what_failed` as a post-grading revision.
-
-## What I would do next
-
-Have a second person grade a sample of the items blind, to measure agreement. Add the answers from a third model. Rewrite the weakest items so they check substance instead of exact wording.
