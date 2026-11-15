@@ -1,0 +1,287 @@
+﻿id,category,prompt,reference_notes,model_a,model_b,response_a,response_b,rubric_complete,date_tested,model_version_a,model_version_b
+P01,Factual,"What is the boiling point of water at the summit of Mount Everest, to the nearest degree Celsius? Explain briefly why it differs from sea level.",About 70-71 C; lower air pressure. Verify with a source.,ChatGPT,Gemini,"The boiling point of water at the summit of Mount Everest is approximately 70°C (to the nearest degree). Why? Atmospheric pressure decreases with altitude. At Everest's summit (about 8,849 metres), the air pressure is much lower than at sea level. This allows water molecules to escape into vapour more easily, so water boils at a lower temperature. At sea level, where atmospheric pressure is higher, water boils at 100°C.","The boiling point of water at the summit of Mount Everest is approximately 68°C (or 71°C depending on seasonal barometric variations, though 68°C is the standard textbook figure for the summit's ~8,849 m elevation and ~33.7 kPa atmospheric pressure). Why it differs from sea level:
+Water boils when its vapor pressure equals the surrounding atmospheric pressure. At sea level, atmospheric pressure is high (101.3 kPa), requiring water molecules to reach 100°C to gain enough kinetic energy to escape into gas. At the summit of Mount Everest, the air is much thinner and exerts roughly one-third the pressure of sea level, allowing water molecules to escape as vapor at a significantly lower temperature.",Y,2026-11-15,GPT 6,Hydrogen
+P02,Constraint-heavy,Write a four-line poem about the sea without using the letter 'e' anywhere.,Four lines about the sea; no letter 'e' in any word (check every word).,ChatGPT,Gemini,"Soft waves kiss sandy ground,
+Moonlight shims across thе sound,
+Wild tides roar, gulls fly high,
+Salt winds sing 'neath stars in sky.","Salt spray drifts across a dark, vast bay,
+Cold tides crash upon a rocky shore,
+Bright sun sinks to end a tranquil day,
+Wild winds howl and foaming billows roar.",Y,2026-11-15,GPT 6,Hydrogen
+P03,Constraint-heavy,"Write exactly 5 sentences about the monsoon. The sentences must start with the letters R, A, I, N, S in that order, no sentence may be longer than 12 words, and the letter 'z' must not appear anywhere.","Check: 5 sentences; first letters R, A, I, N, S in order; each at most 12 words; no letter 'z'.",ChatGPT,Gemini,"Rain clouds gather over fields, promising relief from summer heat.
+Across the land, gentle showers awaken thirsty earth.
+Innumerable raindrops dance upon rooftops and leaves.
+Nature flourishes as rivers swell and flowers bloom.
+Soothing monsoon winds bring freshness, joy, and renewal.","Rain arrives each summer across South Asia with sweeping winds and clouds. Air turns cool and humid as dark skies gather over dry plains. Intense downpours drench parched fields, swelling rivers and filling vital reservoirs. Nature awakens quickly, turning dusty landscapes into lush, vibrant shades of green. Seasons shift once more when autumn sunshine finally clears the heavy mist",Y,2026-11-15,GPT 6,Hydrogen
+P04,Counting,"List 7 fruits whose names have exactly 5 letters, in alphabetical order, with no repeats.","Seven real fruits, each name exactly 5 letters, in alphabetical order, no repeats. Examples: apple, grape, guava, lemon, mango, melon, peach.",ChatGPT,Gemini,"Apple
+
+Grape
+
+Guava
+
+Lemon
+
+Mango
+
+Peach
+
+Prune","Apple
+
+Berry
+
+Grape
+
+Guava
+
+Lemon
+
+Mango
+
+Peach",Y,2026-11-15,GPT 6,Hydrogen
+P05,Multi-step,"Write a day-by-day plan for a 3-day trip to Lisbon with exactly 3 activities per day, each labeled morning, afternoon or evening, and end with a one-sentence packing tip.","Check: 3 days, exactly 3 labeled activities each, one-sentence packing tip at the end.",ChatGPT,Gemini,"3-Day Lisbon Travel Itinerary 🇵🇹
+This itinerary covers Lisbon's historic neighbourhoods, iconic architecture, riverside attractions, local food and nightlife without spending too much time travelling between locations.
+
+Day 1 – Historic Lisbon & Alfama
+
+1. Morning – Explore Praça do Comércio: Visit Lisbon's grand riverside square, admire its architecture and walk along Rua Augusta.
+
+2. Afternoon – Discover Alfama and São Jorge Castle: Wander through narrow cobbled streets, explore the medieval castle and enjoy panoramic city views.
+
+3. Evening – Experience traditional Fado music: Have dinner at a traditional restaurant in Alfama while listening to Portugal's famous soulful music.
+Day 2 – Belém & Riverside Lisbon
+
+1. Morning – Visit Jerónimos Monastery: Explore its impressive Manueline architecture and beautiful cloisters, a UNESCO World Heritage landmark.
+
+2. Afternoon – Explore Belém Tower and the Monument to the Discoveries: Walk along the Tagus waterfront, admire the historic monuments and stop for the famous Portuguese custard tarts at Pastéis de Belém.
+
+3. Evening – Visit LX Factory: Explore this converted industrial complex filled with independent shops, street art, cafés and restaurants.
+Day 3 – Culture, Shopping & City Views
+
+1. Morning – Explore Chiado: Visit historic bookshops, boutique stores, charming cafés and the beautiful streets around Carmo Convent.
+
+2. Afternoon – Enjoy Portuguese food at Time Out Market: Sample traditional Portuguese dishes, seafood and local desserts from the market's food stalls.
+
+3. Evening – Watch the sunset at Miradouro de São Pedro de Alcântara: Enjoy panoramic views of Lisbon's rooftops before spending your final evening exploring Bairro Alto's restaurants and bars.
+
+Getting around
+- Use Lisbon's metro, buses and trams for longer journeys.
+- Walk between nearby historic attractions.
+- Book monastery tickets in advance.
+- Check Monday closures before scheduling Belém's monuments.
+
+Packing tip: Bring comfortable walking shoes, a light jacket for breezy evenings, sunglasses and a compact umbrella, as Lisbon's cobbled hills and changeable weather can catch you off guard.","Here is a 3-day itinerary for exploring Lisbon:
+
+Day 1: Historic Hills & Old-World Charm
+
+Morning: Explore Castelo de São Jorge, a hilltop Moorish fortress offering panoramic views over Lisbon’s terracotta rooftops and the Tagus River.
+
+Walk along the ancient ramparts and battlements for sweeping city vistas.
+
+Visit the on-site archaeological museum and the ruins of the former royal palace.
+
+Afternoon: Wander through the narrow, winding cobblestone alleys of Alfama, the city's oldest district.
+
+Stop at scenic miradouros (viewpoints) along the sloped streets to watch the historic yellow trams pass by.
+
+Browse small local artisan shops and admire traditional azulejo tilework on the building facades.
+
+Evening: Head to Bairro Alto for dinner and traditional Portuguese Fado music.
+
+Dine at a cozy neighborhood tasca serving grilled seafood and regional wines.
+
+Experience an intimate live Fado performance as the quiet daytime streets transform into a lively nightlife hub.
+
+Day 2: Maritime Heritage in Belém
+
+Morning: Tour the grand Jerónimos Monastery, a masterpiece of Late Gothic Manueline architecture celebrating Portugal's Age of Discovery.
+
+Admire the intricately carved limestone cloisters and the resting place of explorer Vasco da Gama.
+
+Note that the monastery is closed on Mondays, so plan this visit between Tuesday and Sunday.
+
+Afternoon: Stop by Pastéis de Belém for warm custard tarts before walking over to the waterfront Belém Tower.
+
+Taste the famous pastéis de nata dusted with cinnamon and powdered sugar at the historic bakery.
+
+Climb the riverside fortified tower (open Tuesday through Sunday) to take in views of the estuary.
+
+Evening: Enjoy a diverse culinary dinner at Time Out Market inside Mercado da Ribeira.
+
+Sample dishes from dozens of food stalls curated by top local chefs under one roof.
+
+Try regional classics like bifana pork sandwiches, octopus salad, and petiscos (Portuguese tapas).
+
+Day 3: Art, Parks & Creative Culture
+
+Morning: Spend the morning at the Calouste Gulbenkian Museum, home to one of Europe's finest private art collections.
+
+View artworks spanning ancient Egyptian, Greco-Roman, Islamic, Asian, and European traditions.
+
+Stroll through the surrounding landscaped gardens, keeping in mind the museum is closed on Tuesdays.
+
+Afternoon: Take a relaxing walk through Eduardo VII Park before heading down toward the central Baixa-Chiado district.
+
+Look down the park's manicured geometric hedges for a framed view stretching to the river.
+
+Explore the grand plazas, historic bookshops, and pedestrian shopping streets of Baixa and Chiado.
+
+Evening: Spend your final night at LX Factory, a revitalized 19th-century industrial complex beneath the 25 de Abril Bridge.
+
+Browse independent design boutiques, street art murals, and the iconic Ler Devagar bookstore.
+
+Grab dinner and rooftop drinks at one of the complex's trendy restaurants.
+
+Packing Tip: Pack sturdy, cushioned walking shoes with strong grip, as Lisbon's steep hills and slick calçada portuguesa cobblestone sidewalks can be tough on your feet.",Y,2026-11-15,GPT 6,Hydrogen
+P06,Counting,How many words in this sentence have exactly 4 letters: 'The quick brown fox jumps over the lazy dog near the old barn'?,"4 (over, lazy, near, barn).",ChatGPT,Gemini,"7 words: quick, brown, jumps, over, lazy, near, barn.","There are 4 words with exactly 4 letters in that sentence:
+
+over
+
+lazy
+
+near
+
+barn",Y,2026-11-15,GPT 6,Hydrogen
+P07,Multi-step,"Rewrite the sentence 'The meeting is at 3 pm tomorrow' in three ways: formal, casual, and as a text message under 60 characters. Label each version.",Check: three labeled versions; the text message version is under 60 characters (count it).,ChatGPT,Gemini,"Formal: The meeting is scheduled for 3:00 PM tomorrow.
+
+Casual: The meeting's at 3 tomorrow.
+
+Text message: Meeting tomorrow at 3 PM.","Formal: Please be advised that the meeting is scheduled to take place tomorrow at 3:00 PM.
+
+Casual: Hey, just a reminder that our meeting is tomorrow at 3 pm!
+
+Text message: Reminder: Meeting tomorrow at 3 pm. (33 characters)",Y,2026-11-15,GPT 6,Hydrogen
+P08,Constraint-heavy,"Describe how a refrigerator works in exactly 4 sentences, with no sentence longer than 20 words, and without using the word 'cool'.","Count sentences (4), words per sentence (max 20), and check the banned word.",ChatGPT,Gemini,"A refrigerator uses a refrigerant that absorbs heat from inside its compartment.
+
+The compressor pressurizes the refrigerant, raising its temperature.
+
+The condenser releases this heat into the surrounding air.
+
+The refrigerant then expands, cools down, and repeats the cycle.","A liquid refrigerant absorbs heat from the interior compartment as it evaporates into a gas.
+
+Next, a compressor squeezes this warm gas, raising its pressure and temperature significantly.
+
+The pressurized gas flows through exterior coils, releasing its trapped heat into the surrounding kitchen air.
+
+As the refrigerant loses heat, it condenses back into a liquid and repeats the continuous cycle.",Y,2026-11-15,GPT 6,Hydrogen
+P09,Constraint-heavy,Write a product description for a reusable water bottle in exactly 50 words. Do not use the words 'best' or 'perfect'.,Count words (exactly 50) and check the banned words.,ChatGPT,Gemini,"Stay hydrated wherever life takes you with this durable, reusable water bottle. Crafted from high-quality, BPA-free materials, it keeps your drinks fresh and easily accessible. Its leak-resistant lid prevents spills, while the lightweight design fits conveniently into backpacks, gym bags, and cup holders. Refill, reuse, and reduce waste daily.","Stay hydrated anywhere with this sleek, durable reusable water bottle. Crafted from premium stainless steel, its double-wall insulation keeps drinks icy cold for twenty-four hours or piping hot for twelve. The leakproof lid prevents messy spills inside your bag, while the wide mouth fits ice cubes effortlessly for daily adventures.",Y,2026-11-15,GPT 6,Hydrogen
+P10,Constraint-heavy,"Give me three tips for studying effectively. Respond only as a numbered list, with each tip under 12 words and no extra text before or after.","Check: only a numbered list of 3, each under 12 words, nothing before or after.",ChatGPT,Gemini,"1. Use active recall and practice questions instead of rereading notes.
+2. Study in focused 25–50 minute sessions with short breaks.
+3. Prioritize difficult topics first and review material consistently.","1. Test yourself frequently using active recall instead of passively rereading notes.
+2. Space study sessions over several days to strengthen long-term memory retention.
+3. Study in focused twenty-five-minute intervals followed by brief five-minute breaks.",Y,2026-11-15,GPT 6,Hydrogen
+P11,Constraint-heavy,"Explain what a firewall is to a 10-year-old in under 80 words, using one analogy and no technical jargon.","Count words (under 80), check for exactly one analogy and no jargon.",ChatGPT,Gemini,"A firewall is like a security guard at your house. It checks everyone trying to enter or leave and blocks anyone who seems suspicious. Just like a guard keeps strangers out of your home, a firewall protects your computer from unwanted visitors and harmful things while allowing safe connections.","A firewall is like a security guard standing at the front gate of your house. Whenever someone tries to walk in or drop off a package, the guard checks their name against a strict guest list. Safe friends and family get waved right through, while strangers or troublemakers get turned away at the door. In the same way, a firewall stands between your computer and the internet, letting safe information in while blocking sneaky bugs and bad guys.",Y,2026-11-15,GPT 6,Hydrogen
+P12,Ambiguous,Is it better to rent or buy?,Underspecified. Good answers state assumptions or ask what the person's situation is.,ChatGPT,Gemini,"It depends on what you're renting or buying. The financial calculation and trade-offs differ significantly.
+
+Are you talking about renting vs buying a house, a car, electronics, or something else?","Deciding whether to rent or buy a home depends heavily on your financial situation, lifestyle goals, and local housing market conditions (such as property prices relative to local rental yields in your city). Neither option is universally ""better""—each serves different priorities.Here is a breakdown of the financial and lifestyle factors to help you weigh both choices:Key Factors to CompareFactorRentingBuyingUpfront CostsLow: Typically 2–6 months of rent as a refundable security deposit, plus moving costs.High: Typically 10%–20% down payment, plus 5%–8% in closing costs (registration, stamp duty, legal fees).Monthly Cash FlowPredictable: Fixed monthly rent during the lease term; zero surprise repair bills.Variable: Fixed/floating home loan EMI, plus property taxes, maintenance/HOA fees, and insurance.Wealth BuildingIndirect: You build wealth only if you diligently invest the money saved on down payments and maintenance (e.g., into equities or mutual funds).Forced Savings: Each EMI payment builds home equity over time, alongside potential property appreciation.FlexibilityHigh: Easy to relocate after a 11-month or 1-year lease ends without transaction losses.Low: Selling a property takes time and incurs high transaction costs (brokerage, capital gains tax).Control & StabilityLimited: Subject to landlord rules on renovations and potential rent hikes or non-renewal.Full Control: Freedom to renovate, customize, and stay indefinitely without landlord interference.Two Rules of Thumb to Guide Your DecisionThe 5-Year Horizon Rule:
+Buying a home comes with steep upfront transaction costs (stamp duty, registration, loan processing) and early-year loan interest. Generally, you need to stay in a purchased home for at least 5 to 7 years for property appreciation and equity buildup to outweigh those initial sunk costs. If you anticipate moving cities, changing careers, or upgrading your living space within 3–4 years, renting is almost always financially superior.The Price-to-Rent Ratio:
+Divide the purchase price of a comparable home by its annual rent:Ratio under 15: Buying is generally very attractive.Ratio between 16 and 20: It is a toss-up; personal preference and investment returns decide the winner.Ratio above 20: Renting is typically much cheaper than owning. (Note: In many major Indian metro hubs like NCR, Mumbai, and Bengaluru, residential rental yields sit around 2.5%–3.5%, putting the Price-to-Rent ratio between 28 and 40—meaning renting often frees up significant cash flow to invest elsewhere).When Each Option Makes SenseRenting is likely better if:You value career mobility or aren't sure where you want to live in 3 years.You want to keep your capital liquid to invest in higher-yielding assets or your own business/career growth.Local home prices are inflated compared to the cost of renting an identical property.Buying is likely better if:You plan to settle in one location for 7+ years.You have a stable emergency fund separate from your down payment.You want long-term housing security, predictable housing costs over decades, and the freedom to customize your home.If you'd like to run the actual numbers for a specific city, property price, or monthly rent, share a few details below and we can map out a side-by-side comparison.",Y,2026-11-15,GPT 6,Hydrogen
+P13,Ambiguous,Fix my code.,No code given. A good answer asks for the code.,ChatGPT,Gemini,"Paste your code here and include:
+1. Programming language: Python, JavaScript, C++, etc.
+2. Expected behaviour: What should the code do?
+3. Problem: Error message, incorrect output, or unexpected behaviour.
+I'll identify the issue, fix the code, and explain the changes.",Paste your code and let me know what error you're seeing or what it's supposed to do.,Y,2026-11-15,GPT 6,Hydrogen
+P14,Ambiguous,Summarize the article.,No article given. A good answer asks for it.,ChatGPT,Gemini,"Please upload the article, paste its text, or share its URL. I'll summarize the key points, main arguments, and conclusions.",Please provide the article or link you would like me to summarize.,Y,2026-11-15,GPT 6,Hydrogen
+P15,Edge case,Why did Albert Einstein win the Nobel Prize for his theory of relativity?,"False premise: the 1921 Nobel Prize in Physics was for the photoelectric effect, not relativity.",ChatGPT,Gemini,"Albert Einstein did not win the Nobel Prize for his theory of relativity.
+
+He received the 1921 Nobel Prize in Physics for his explanation of the photoelectric effect.
+
+Here's the distinction:
+- Theory of Relativity (1905–1915): Explained how space, time, gravity, and motion work. It revolutionised modern physics.
+- Photoelectric Effect (1905): Explained how light can behave as particles (photons) and knock electrons out of a metal when it strikes its surface.
+Why did he win for the photoelectric effect?
+
+Einstein demonstrated that light transfers energy in discrete packets rather than behaving only as a continuous wave. This helped establish quantum theory and was supported by experimental evidence.
+
+Why not relativity?
+
+At the time, relativity was still controversial, and the Nobel Committee wanted stronger experimental confirmation before awarding a prize for it.
+
+Interestingly, Einstein's Nobel Prize citation specifically mentioned his discovery of the law of the photoelectric effect, not relativity.","Albert Einstein actually did not win the Nobel Prize for his theory of relativity. He was awarded the 1921 Nobel Prize in Physics (announced in 1922) primarily for his discovery of the law of the photoelectric effect and his broader services to theoretical physics.
+
+There were a few major reasons why the Nobel Committee avoided awarding him the prize for relativity:
+
+Experimental skepticism: At the time, the theory of relativity was still considered highly theoretical and controversial. Many physicists—including influential members of the Nobel Committee—argued that there was not yet enough definitive, repeatable experimental proof to confirm it, despite Arthur Eddington's famous 1919 solar eclipse observations.
+
+Philosophical resistance: Several committee members, notably Swedish physicist Allvar Gullstrand, opposed relativity on philosophical and mathematical grounds, viewing it as an abstract mathematical construct rather than observable physics.
+
+Political and cultural bias: Einstein faced significant opposition from conservative and nationalist factions in the scientific community, including German physicists like Philipp Lenard, who dismissed relativity as ""Jewish physics"" and actively lobbied against him.
+
+Because Einstein's fame had grown too massive to ignore without damaging the prize's credibility, the committee compromised. They awarded him the prize for his 1905 paper on the photoelectric effect—which demonstrated that light behaves as discrete packets of energy (photons)—since that phenomenon had already been solidly verified in laboratory experiments.",Y,2026-11-15,GPT 6,Hydrogen
+P16,Reasoning,"What is the date and day of the week 100 days after Saturday, 14 November 2026?","Monday, 22 February 2027.",ChatGPT,Gemini,"Monday, 22 February 2027.
+
+100 days = 14 weeks + 2 days.
+
+Saturday + 2 days = Monday.","100 days after Saturday, 14 November 2026 is Monday, 22 February 2027.Day of the week: $100 \pmod 7 = 2$, so advancing 2 days from Saturday lands on Monday.Calendar breakdown: 16 remaining days in November + 31 days in December 2026 + 31 days in January 2027 + 22 days in February 2027 = 100 days.",Y,2026-11-15,GPT 6,Hydrogen
+P17,Reasoning,"Pipe A fills a tank in 6 hours and pipe B fills it in 4 hours. Pipe C empties the full tank in 12 hours. With all three pipes open, how long does it take to fill the empty tank?",3 hours (rates 1/6 + 1/4 - 1/12 = 1/3 per hour).,ChatGPT,Gemini,"The combined filling rate is:
+- Pipe A: \(\frac{1}{6}\) tank/hour
+- Pipe B: \(\frac{1}{4}\) tank/hour
+- Pipe C: \(-\frac{1}{12}\) tank/hour
+Net filling rate:
+\[
+\frac{1}{6}+\frac{1}{4}-\frac{1}{12}
+\]
+
+Taking LCM = 12:
+\[
+=\frac{2+3-1}{12}
+=\frac{4}{12}
+=\frac{1}{3}
+\]
+
+So, the pipes fill \(\frac{1}{3}\) of the tank per hour.
+\[
+\text{Time}=\frac{1}{1/3}=\boxed{3\text{ hours}}
+\]",It takes 3 hours to fill the empty tank with all three pipes open.Step-by-Step CalculationFind each pipe's hourly rate:Pipe A fills $\frac{1}{6}$ of the tank per hour.Pipe B fills $\frac{1}{4}$ of the tank per hour.Pipe C empties $\frac{1}{12}$ of the tank per hour.Combine the rates for the net hourly fill rate:$$\text{Net Rate} = \frac{1}{6} + \frac{1}{4} - \frac{1}{12}$$Convert to a common denominator of 12:$$\text{Net Rate} = \frac{2}{12} + \frac{3}{12} - \frac{1}{12} = \frac{4}{12} = \frac{1}{3} \text{ of the tank per hour}$$Calculate the total time to fill the tank:$$\text{Time} = \frac{1}{\text{Net Rate}} = \frac{1}{\frac{1}{3}} = 3 \text{ hours}$$,Y,2026-11-15,GPT 6,Hydrogen
+P18,Edge case,Summarize the plot of Shakespeare's play 'The Merchant of Verona'.,No such play exists. A good answer says so; it may mention The Merchant of Venice or The Two Gentlemen of Verona. Verify with a source.,ChatGPT,Gemini,"There is no Shakespeare play titled The Merchant of Verona. You may be referring to The Merchant of Venice, one of Shakespeare's most famous comedies.
+Plot summary of The Merchant of Venice
+The play follows Antonio, a wealthy merchant, who borrows money from Shylock, a Jewish moneylender, to help his friend Bassanio pursue a wealthy heiress named Portia.
+
+Shylock agrees to lend the money but demands a strange condition: if Antonio fails to repay the loan on time, Shylock can take a pound of Antonio's flesh.
+
+Meanwhile, Bassanio wins Portia's hand in marriage by choosing the correct one of three caskets. However, Antonio's ships are reported lost at sea, leaving him unable to repay Shylock.
+
+Shylock takes Antonio to court and demands his pound of flesh. Portia disguises herself as a male lawyer and argues that Shylock is legally entitled to the flesh but cannot shed a single drop of blood.
+
+Shylock is ultimately defeated, and Antonio is spared.
+Main themes
+- Justice vs. mercy: Whether the law should be followed strictly or tempered with compassion.
+- Friendship and loyalty: Antonio's willingness to risk his life for Bassanio.
+- Prejudice and discrimination: Shylock experiences religious discrimination and hostility.
+- Love and wealth: The play explores relationships, money, and social status.
+In short: The play explores friendship, love, revenge, prejudice, and the importance of mercy over strict justice.","William Shakespeare’s The Merchant of Verona is a comedy—though often classified as a ""problem play"" due to its dark themes of prejudice and vengeance—centered on love, wealth, and mercy in 16th-century Venice.
+
+The Bond
+Bassanio, a young Venetian nobleman who has squandered his fortune, wants to travel to Belmont to woo Portia, a wealthy and intelligent heiress. To fund the trip, he asks his close friend, the merchant Antonio, for a loan. Antonio’s money is tied up in merchant ships at sea, so he agrees to act as guarantor for a loan from Shylock, a Jewish moneylender.
+
+Shylock harbors deep resentment toward Antonio, who has previously insulted him and undermined his lending business by offering interest-free loans. Shylock agrees to lend Bassanio 3,000 ducats for three months without interest, on one macabre condition: if the loan is not repaid on time, Shylock may cut a pound of flesh from Antonio's body. Despite Bassanio's protests, Antonio confidently signs the bond, certain his ships will return in time.
+
+The Caskets
+In Belmont, suitors must pass a test devised by Portia’s late father to win her hand. They must choose between three caskets—one of gold, one of silver, and one of lead—each bearing a riddle. Two arrogant suitors, the Princes of Morocco and Arragon, choose gold and silver respectively and fail. Bassanio arrives, sees past outward appearances, and correctly chooses the lead casket, winning Portia’s hand.
+
+At the same time, Bassanio’s friend Gratiano falls in love with Portia’s maid, Nerissa, and the two couples decide to hold a double wedding.
+
+The Trial
+Celebrations are cut short when news arrives from Venice: Antonio’s ships have been lost at sea, and he has defaulted on the loan. Embittered further because his daughter, Jessica, recently eloped with a Christian named Lorenzo (taking a large sum of his money with her), Shylock refuses all offers of double or triple repayment and demands his legal right to Antonio's pound of flesh.
+
+Bassanio rushes back to Venice with money from Portia to save his friend. Secretly, Portia and Nerissa disguise themselves as a male doctor of law (""Balthazar"") and his clerk, traveling to Venice to intervene in the trial.
+
+In the Venetian court, Portia appeals to Shylock to show mercy, delivering the famous ""The quality of mercy is not strained"" speech. When Shylock refuses, Portia turns the strict letter of the law against him:
+
+She grants him the right to cut a pound of Antonio's flesh, provided he sheds not a single drop of Christian blood (which was not specified in the bond).
+
+If he takes even slightly more or less than an exact pound, his property will be confiscated and he will be executed.
+
+Trapped by his own legalism, Shylock tries to accept the original money instead, but Portia insists he receive only the penalty he demanded. Furthermore, under Venetian law, because Shylock is an alien who conspired against the life of a Venetian citizen, his wealth is forfeit—half to Antonio and half to the state. The Duke spares Shylock’s life, and Antonio agrees to waive his half of the fortune on the condition that Shylock converts to Christianity and wills his remaining estate to Jessica and Lorenzo. Broken and defeated, Shylock agrees and leaves the court.
+
+The Rings and Resolution
+Still in disguise, Portia and Nerissa ask Bassanio and Gratiano for their wedding rings as payment for saving Antonio. Reluctantly, the men hand them over, having previously sworn never to part with them.
+
+Back in Belmont, Portia and Nerissa playfully accuse their husbands of giving the rings to other women before revealing their disguises and returning the rings. The play ends on a lighthearted note as news arrives that three of Antonio's ships have safely returned to harbor after all, restoring his fortune.",Y,2026-11-15,GPT 6,Hydrogen
+P19,Ambiguous,Translate the word 'bank' into Hindi.,Ambiguous: financial bank vs river bank. A good answer asks or gives both senses. Verify the Hindi words with a source.,ChatGPT,Gemini,"Bank (financial institution): बैंक
+
+Bank (riverbank): नदी का किनारा / तट","The word ""bank"" has two common meanings in English, each translating differently in Hindi depending on context:Financial Institutionबैंक   BainkEveryday Usage: Hindi speakers almost universally use the loanword बैंक (baink) in both casual and formal conversation when referring to a place where money is kept.Pure Hindi Alternative: In formal government, legal, or academic documents, अधिकोष (adhikosh) is occasionally used, though it is rare in daily speech.Grammatical Gender: Treated as masculine in standard Hindi (e.g., बैंक खुला है — ""The bank is open"").Riverbank / Edge of Waterकिनारा   KinaaraaGeneral Usage: किनारा (kinaaraa) is the most common word for the bank of a river, lake, or pond, and also means ""edge"" or ""shore.""Literary / Formal Alternative: तट (tat) is frequently used in formal writing, news, or religious contexts (e.g., गंगा तट — ""the banks of the Ganges"").Grammatical Gender: Both किनारा and तट are masculine nouns.",Y,2026-11-15,GPT 6,Hydrogen
+P20,Edge case,Write one sentence that has exactly 3 words and is at least 10 words long.,Impossible. A good answer points out the contradiction.,ChatGPT,Gemini,"This sentence contains exactly three words, somehow.","A single sentence cannot simultaneously have exactly 3 words and be at least 10 words long—that is a mathematical contradiction.
+
+However, if we bend the rules with a little wordplay, here is a 10-word sentence that technically contains ""exactly 3 words"":
+
+Writing exactly 3 words makes this sentence ten words long.",Y,2026-11-15,GPT 6,Hydrogen
